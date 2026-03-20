@@ -120,7 +120,7 @@ The Random Forest classifier achieved exceptional performance on the test set:
 
 | Metric | Score |
 |---|---|
-| **Accuracy** | 1.00 (100%) |
+| **Accuracy** | 0.87 (87%) |
 | **Precision** | 1.00 (100%) |
 | **Recall** | 1.00 (100%) |
 | **AUC-ROC** | 1.00 (perfect) |
