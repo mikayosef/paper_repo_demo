@@ -187,8 +187,8 @@ def main():
     
     results_dir = create_results_directory()    
     X_train, X_test, y_train, y_test, scaler = load_and_prepare_data()    
-    model, hyperparameters = train_model(X_train, y_train)    
-    metrics, y_pred, y_pred_proba = evaluate_model(model, X_test, y_test)    
+    model, hyperparameters = traine_model(X_train, y_train)    
+    metrics, y_pred, y_pred_proba = evaluate_model(model, x_train, y_test)    
     save_results(results_dir, model, scaler, metrics, hyperparameters)
     
     print("\n" + "=" * 60)
